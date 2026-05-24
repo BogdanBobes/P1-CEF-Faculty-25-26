@@ -1,0 +1,389 @@
+
+**** 01/17/26 21:42:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-1"  [ c:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2-pspicefiles\schematic1\1.sim 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Bobes Bogdan\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OP
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECTCEF2
+Q_Q10         VS+ N09955 N10137 BC817-25 
+Q_Q18         N10501 N10501 0 BC817-25 
+Q_Q11         VS+ N10137 VOUT BC817-25 
+Q_Q16         N10355 N10485 N10617 BC817-25 
+Q_Q8         VS+ N10083 N10265 BC817-25 
+Q_Q19         N10343 N10343 N10501 BC817-25 
+Q_Q7         N09955 N09931 N09873 BC807-25 
+Q_Q1         N10083 N10129 N15102 BC817-25 
+Q_Q12         N10137 N10327 N10375 BC817-25 
+Q_Q3         N10129 V- N09951 BC807-25 
+Q_Q6         N09931 N09931 N09865 BC807-25 
+Q_Q4         N10083 V+ N09951 BC807-25 
+Q_Q5         N09951 N09931 N09869 BC807-25 
+Q_Q9         N09955 N10265 0 BC817-25 
+Q_Q15         N09931 N10485 N10621 BC817-25 
+Q_Q17         VS+ N10355 N10485 BC817-25 
+Q_Q2         N10129 N10129 N10397 BC817-25 
+Q_Q14         N10375 N10485 N10625 BC817-25 
+R_R1         0 N10397  470m TC=0,0 
+R_R2         0 N15102  470m TC=0,0 
+R_R3         N09865 VS+  330 TC=0,0 
+R_R4         N09869 N10950  100 TC=0,0 
+R_R5         N09873 N10954  100 TC=0,0 
+R_R6         N10327 N10137  1.5k TC=0,0 
+R_R7         N10375 N10327  680 TC=0,0 
+R_R8         0 N10625  150 TC=0,0 
+R_R9         0 N10621  330 TC=0,0 
+R_R10         0 N10617  330 TC=0,0 
+R_R11         N10355 N10001  4.7k TC=0,0 
+R_R12         0 N10625  150 TC=0,0 
+R_R13         N10954 VS+  82 TC=0,0 
+R_R14         N10950 VS+  82 TC=0,0 
+R_R15         V+ VS+  10k TC=0,0 
+R_R16         0 V+  10k TC=0,0 
+R_R17         VOUT N13069  4.7k TC=0,0 
+R_R18         V- VOUT  22k TC=0,0 
+R_R19         N13013 V-  10k TC=0,0 
+R_R20         0 N13032  820 TC=0,0 
+C_C1         N10083 N09955  47p  TC=0,0 
+C_C2         0 V+  2.2n  TC=0,0 
+C_C3         N13069 V+  2.2n  TC=0,0 
+C_C4         N13032 VOUT  10u  TC=0,0 
+C_C5         0 N13013  10u  TC=0,0 
+Q_Q13         0 N10375 VOUT BC807-25 
+V_V1         VS+ 0 16Vdc
+D_D6         V- VOUT BZX84C2V7/ZTX 
+D_D7         VOUT V- BZX84C2V7/ZTX 
+J_J1         N10001 N10001 VS+ J309 
+D_D8         N10343 N10001 BZX84C6V2/ZTX 
+
+**** RESUMING 1.cir ****
+.END
+
+**** 01/17/26 21:42:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-1"  [ c:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2-pspicefiles\schematic1\1.sim 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84C2V7/ZTX   BZX84C6V2/ZTX   
+          IS    3.677000E-15  180.400000E-15 
+           N    1.059           1.228        
+         IKF    1               1            
+          BV    2.766           6.326        
+         IBV     .06476          .654        
+          RS     .12             .09         
+          TT   57.710000E-09  418.400000E-09 
+         CJO  312.100000E-12  149.500000E-12 
+          VJ     .3971           .6676       
+           M     .2052           .3207       
+
+
+**** 01/17/26 21:42:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-1"  [ c:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2-pspicefiles\schematic1\1.sim 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC817-25        BC807-25        
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   32.530000E-15   32.530000E-15 
+          BF  294.4           340            
+          NF    1               1            
+         VAF  100             100            
+         IKF     .8311           .4118       
+         ISE  318.500000E-15  288.900000E-15 
+          NE    1.642           1.568        
+          BR    5.855           6.333        
+          NR    1               1            
+         IKR     .1075           .03284      
+         ISC  199.700000E-15  262.400000E-15 
+          NC    2.09            1.87         
+          NK     .5663           .5241       
+         ISS    0               0            
+          RE    0               0            
+          RC     .4196           .3998       
+         CJE   71.140000E-12   71.140000E-12 
+         VJE     .5              .5          
+         MJE     .3333           .3333       
+         CJC   24.290000E-12   24.290000E-12 
+         VJC     .5              .5          
+         MJC     .3333           .3333       
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          TF  660.800000E-12  704.100000E-12 
+         XTF   88.29            1.332000E+03 
+         VTF   10              10            
+         ITF    2.569          14.26         
+          TR   10.000000E-09   10.000000E-09 
+         XTB    1.5             1.5          
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 01/17/26 21:42:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-1"  [ c:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2-pspicefiles\schematic1\1.sim 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               J309            
+               NJF             
+         VTO   -2.075        
+        BETA    4.682000E-03 
+      LAMBDA     .0145       
+          IS  193.900000E-15 
+         ISR    1.881000E-12 
+       ALPHA    7.533000E-06 
+          VK   74.1          
+          RD    1            
+          RS    1            
+         CGD    6.200000E-12 
+         CGS    6.200000E-12 
+           M     .4647       
+       VTOTC   -2.500000E-03 
+     BETATCE    -.5          
+          KF   64.120000E-18 
+
+
+**** 01/17/26 21:42:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-1"  [ c:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2-pspicefiles\schematic1\1.sim 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+)    8.0226  (   V-)    8.0227  (  VS+)   16.0000  ( VOUT)    7.9232      
+
+(N09865)   15.5770 (N09869)   15.5900 (N09873)   15.5900 (N09931)   14.9460     
+
+(N09951)    8.6484 (N09955)    9.3902 (N10001)    7.6462 (N10083)    1.1397     
+
+(N10129)     .6278 (N10137)    8.7284 (N10265)     .6432 (N10327)    7.6148     
+
+(N10343)    1.4075 (N10355)    1.5874 (N10375)    7.1100 (N10397) 523.8E-06     
+
+(N10485)    1.0582 (N10501)     .7037 (N10617)     .4271 (N10621)     .4301     
+
+(N10625)     .3922 (N10950)   15.8150 (N10954)   15.8150 (N13013)    8.0227     
+
+(N13032)    0.0000 (N13069)    7.9232 (N15102) 526.4E-06 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -6.401E-01
+
+    TOTAL POWER DISSIPATION   1.02E+01  WATTS
+
+
+**** 01/17/26 21:42:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-1"  [ c:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2-pspicefiles\schematic1\1.sim 
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** DIODES
+
+
+NAME         D_D6                    D_D7                  
+MODEL        BZX84C2V7/ZTX           BZX84C2V7/ZTX         
+ID           2.35E-13               -1.03E-13             
+VD           9.95E-02               -9.95E-02             
+REQ          1.65E+11                9.96E+11             
+CAP          3.31E-10                2.98E-10             
+
+NAME         D_D8                  
+MODEL        BZX84C6V2/ZTX         
+ID          -2.08E-02             
+VD          -6.24E+00             
+REQ          1.24E+00             
+CAP          3.37E-07             
+
+
+**** BIPOLAR JUNCTION TRANSISTORS
+
+
+NAME         Q_Q10       Q_Q18       Q_Q11       Q_Q16       Q_Q8      
+MODEL        BC817-25    BC817-25    BC817-25    BC817-25    BC817-25  
+IB           1.62E-05    7.75E-05    3.72E-03    5.27E-06    6.20E-08 
+IC           4.46E-03    2.07E-02    6.07E-01    1.29E-03    8.12E-06 
+VBE          6.62E-01    7.04E-01    8.05E-01    6.31E-01    4.97E-01 
+VBC         -6.61E+00    0.00E+00   -7.27E+00   -5.29E-01   -1.49E+01 
+VCE          7.27E+00    7.04E-01    8.08E+00    1.16E+00    1.54E+01 
+BETADC       2.76E+02    2.68E+02    1.63E+02    2.45E+02    1.31E+02 
+GM           1.71E-01    7.80E-01    1.52E+01    4.97E-02    3.14E-04 
+RPI          1.68E+03    3.42E+02    6.99E+00    5.26E+03    5.48E+05 
+RX           0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+RO           2.39E+04    4.82E+03    1.76E+02    7.80E+04    1.42E+07 
+CBE          2.52E-10    6.69E-10    1.62E-07    1.68E-10    1.19E-10 
+CBC          1.00E-11    2.44E-11    9.84E-12    1.91E-11    7.76E-12 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       2.87E+02    2.67E+02    1.06E+02    2.62E+02    1.72E+02 
+CBX/CBX2     0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+FT/FT2       1.04E+08    1.79E+08    1.50E+07    4.23E+07    3.93E+05 
+
+
+
+NAME         Q_Q19       Q_Q7        Q_Q1        Q_Q12       Q_Q3      
+MODEL        BC817-25    BC807-25    BC817-25    BC817-25    BC807-25  
+IB           7.75E-05   -8.57E-06    4.60E-06    7.93E-08   -4.52E-06 
+IC           2.07E-02   -2.24E-03    1.12E-03    9.84E-06   -1.12E-03 
+VBE          7.04E-01   -6.44E-01    6.27E-01    5.05E-01   -6.26E-01 
+VBC          0.00E+00    5.56E+00   -5.12E-01   -1.11E+00    7.39E+00 
+VCE          7.04E-01   -6.20E+00    1.14E+00    1.62E+00   -8.02E+00 
+BETADC       2.68E+02    2.62E+02    2.42E+02    1.24E+02    2.47E+02 
+GM           7.80E-01    8.62E-02    4.30E-02    3.80E-04    4.31E-02 
+RPI          3.42E+02    3.34E+03    6.04E+03    4.22E+05    6.47E+03 
+RX           0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+RO           4.82E+03    4.71E+04    9.01E+04    1.03E+07    9.60E+04 
+CBE          6.69E-10    1.97E-10    1.63E-10    1.20E-10    1.65E-10 
+CBC          2.44E-11    1.06E-11    1.92E-11    1.64E-11    9.68E-12 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       2.67E+02    2.88E+02    2.60E+02    1.61E+02    2.79E+02 
+CBX/CBX2     0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+FT/FT2       1.79E+08    6.60E+07    3.76E+07    4.43E+05    3.93E+07 
+
+
+
+NAME         Q_Q6        Q_Q4        Q_Q5        Q_Q9        Q_Q15     
+MODEL        BC807-25    BC807-25    BC807-25    BC817-25    BC817-25  
+IB          -5.42E-06   -4.53E-06   -8.52E-06    8.18E-06    4.72E-06 
+IC          -1.28E-03   -1.12E-03   -2.24E-03    2.23E-03    1.30E-03 
+VBE         -6.31E-01   -6.26E-01   -6.44E-01    6.43E-01    6.28E-01 
+VBC          0.00E+00    6.88E+00    6.30E+00   -8.75E+00   -1.39E+01 
+VCE         -6.31E-01   -7.51E+00   -6.94E+00    9.39E+00    1.45E+01 
+BETADC       2.36E+02    2.46E+02    2.63E+02    2.72E+02    2.75E+02 
+GM           4.92E-02    4.30E-02    8.63E-02    8.58E-02    5.01E-02 
+RPI          5.37E+03    6.46E+03    3.36E+03    3.36E+03    5.89E+03 
+RX           0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+RO           7.84E+04    9.58E+04    4.74E+04    4.88E+04    8.77E+04 
+CBE          1.70E-10    1.65E-10    1.97E-10    1.93E-10    1.68E-10 
+CBC          2.43E-11    9.90E-12    1.02E-11    9.19E-12    7.93E-12 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       2.64E+02    2.78E+02    2.90E+02    2.88E+02    2.95E+02 
+CBX/CBX2     0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+FT/FT2       4.03E+07    3.92E+07    6.61E+07    6.74E+07    4.54E+07 
+
+
+
+NAME         Q_Q17       Q_Q2        Q_Q14       Q_Q13     
+MODEL        BC817-25    BC817-25    BC817-25    BC807-25  
+IB           1.67E-07    4.60E-06    1.89E-05   -4.46E-03 
+IC           2.87E-05    1.11E-03    5.21E-03   -6.06E-01 
+VBE          5.29E-01    6.27E-01    6.66E-01   -8.13E-01 
+VBC         -1.44E+01    0.00E+00   -6.05E+00    7.11E+00 
+VCE          1.49E+01    6.27E-01    6.72E+00   -7.92E+00 
+BETADC       1.71E+02    2.41E+02    2.76E+02    1.36E+02 
+GM           1.11E-03    4.28E-02    2.00E-01    1.42E+01 
+RPI          1.91E+05    6.04E+03    1.43E+03    5.87E+00 
+RX           0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+RO           3.99E+06    9.01E+04    2.04E+04    1.76E+02 
+CBE          1.24E-10    1.63E-10    2.72E-10    2.97E-07 
+CBC          7.83E-12    2.43E-11    1.03E-11    9.91E-12 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       2.12E+02    2.59E+02    2.87E+02    8.32E+01 
+CBX/CBX2     0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+FT/FT2       1.34E+06    3.64E+07    1.13E+08    7.60E+06 
+
+
+
+
+**** JFETS
+
+
+NAME         J_J1      
+MODEL        J309      
+ID          -2.21E-02 
+VGS         -8.35E+00 
+VDS         -8.35E+00 
+GM           2.15E-02 
+GDS          2.86E-04 
+CGS          2.20E-12 
+CGD          6.14E-12 
+
+          JOB CONCLUDED
+
+**** 01/17/26 21:42:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-1"  [ c:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2-pspicefiles\schematic1\1.sim 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .08
+

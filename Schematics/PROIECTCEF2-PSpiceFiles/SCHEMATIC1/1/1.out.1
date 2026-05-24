@@ -1,0 +1,145 @@
+
+**** 01/17/26 21:37:55 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-1"  [ c:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2-pspicefiles\schematic1\1.sim 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Bobes Bogdan\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OP
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECTCEF2
+Q_Q10         VS+ N09955 N10137 BC817-25 
+Q_Q18         N10501 N10501 0 BC817-25 
+Q_Q11         VS+ N10137 VOUT BC817-25 
+Q_Q16         N10355 N10485 N10617 BC817-25 
+Q_Q8         VS+ N10083 N10265 BC817-25 
+Q_Q19         N10343 N10343 N10501 BC817-25 
+Q_Q7         N09955 N09931 N09873 BC807-25 
+Q_Q1         N10083 N10129 N15102 BC817-25 
+Q_Q12         N10137 N10327 N10375 BC817-25 
+Q_Q3         N10129 V- N09951 BC807-25 
+Q_Q6         N09931 N09931 N09865 BC807-25 
+Q_Q4         N10083 V+ N09951 BC807-25 
+Q_Q5         N09951 N09931 N09869 BC807-25 
+Q_Q9         N09955 N10265 GND BC817-25 
+Q_Q15         N09931 N10485 N10621 BC817-25 
+Q_Q17         VS+ N10355 N10485 BC817-25 
+Q_Q2         N10129 N10129 N10397 BC817-25 
+Q_Q14         N10375 N10485 N10625 BC817-25 
+R_R1         GND N10397  470m TC=0,0 
+R_R2         GND N15102  470m TC=0,0 
+R_R3         N09865 VS+  330 TC=0,0 
+R_R4         N09869 N10950  100 TC=0,0 
+R_R5         N09873 N10954  100 TC=0,0 
+R_R6         N10327 N10137  1.5k TC=0,0 
+R_R7         N10375 N10327  680 TC=0,0 
+R_R8         GND N10625  150 TC=0,0 
+R_R9         GND N10621  330 TC=0,0 
+R_R10         GND N10617  330 TC=0,0 
+R_R11         N10355 N10001  4.7k TC=0,0 
+R_R12         GND N10625  150 TC=0,0 
+R_R13         N10954 VS+  82 TC=0,0 
+R_R14         N10950 VS+  82 TC=0,0 
+R_R15         V+ VS+  10k TC=0,0 
+R_R16         GND V+  10k TC=0,0 
+R_R17         VOUT N13069  4.7k TC=0,0 
+R_R18         V- VOUT  22k TC=0,0 
+R_R19         N13013 V-  10k TC=0,0 
+R_R20         GND N13032  820 TC=0,0 
+C_C1         N10083 N09955  47p  TC=0,0 
+C_C2         0 V+  2.2n  TC=0,0 
+C_C3         N13069 V+  2.2n  TC=0,0 
+C_C4         N13032 VOUT  10u  TC=0,0 
+C_C5         GND N13013  10u  TC=0,0 
+Q_Q13         GND N10375 VOUT BC807-25 
+V_V1         VS+ GND 16Vdc
+D_D6         V- VOUT BZX84C2V7/ZTX 
+D_D7         VOUT V- BZX84C2V7/ZTX 
+J_J1         N10001 N10001 VS+ J309 
+
+**** RESUMING 1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node VS+ is floating
+
+ERROR(ORPSIM-15142): Node N09955 is floating
+
+ERROR(ORPSIM-15142): Node N10137 is floating
+
+ERROR(ORPSIM-15142): Node VOUT is floating
+
+ERROR(ORPSIM-15142): Node N10355 is floating
+
+ERROR(ORPSIM-15142): Node N10485 is floating
+
+ERROR(ORPSIM-15142): Node N10617 is floating
+
+ERROR(ORPSIM-15142): Node N10083 is floating
+
+ERROR(ORPSIM-15142): Node N10265 is floating
+
+ERROR(ORPSIM-15142): Node N09931 is floating
+
+ERROR(ORPSIM-15142): Node N09873 is floating
+
+ERROR(ORPSIM-15142): Node N10129 is floating
+
+ERROR(ORPSIM-15142): Node N15102 is floating
+
+ERROR(ORPSIM-15142): Node N10327 is floating
+
+ERROR(ORPSIM-15142): Node N10375 is floating
+
+ERROR(ORPSIM-15142): Node V- is floating
+
+ERROR(ORPSIM-15142): Node N09951 is floating
+
+ERROR(ORPSIM-15142): Node N09865 is floating
+
+ERROR(ORPSIM-15142): Node V+ is floating
+
+ERROR(ORPSIM-15142): Node N09869 is floating
+
+ERROR(ORPSIM-15142): Node GND is floating
+
+ERROR(ORPSIM-15142): Node N10621 is floating
+
+ERROR(ORPSIM-15142): Node N10397 is floating
+
+ERROR(ORPSIM-15142): Node N10625 is floating
+
+ERROR(ORPSIM-15142): Node N10950 is floating
+
+ERROR(ORPSIM-15142): Node N10954 is floating
+
+ERROR(ORPSIM-15142): Node N10001 is floating
+
+ERROR(ORPSIM-15142): Node N13069 is floating
+
+ERROR(ORPSIM-15142): Node N13013 is floating
+
+ERROR(ORPSIM-15142): Node N13032 is floating
+

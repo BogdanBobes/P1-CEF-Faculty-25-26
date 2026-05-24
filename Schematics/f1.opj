@@ -1,0 +1,64 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\proiectcef.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\PROIECTCEF.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "D:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\PROIECTCEF.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "TRUE")
+    (NoModify))
+  (Folder "Outputs"
+    (File ".\proiectcef.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\proiectcef.dsn")
+      (Path "Design Resources" ".\proiectcef.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\proiectcef.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 274"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1427 130 443")
+        (Scroll "-139 220")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\PROIECTCEF.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1297 0 313")
+        (Scroll "-139 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\PROIECTCEF.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (MPSSessionName "Bobes Bogdan"))

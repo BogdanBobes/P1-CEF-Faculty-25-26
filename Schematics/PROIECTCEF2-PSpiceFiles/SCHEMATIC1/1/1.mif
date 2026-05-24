@@ -1,0 +1,5 @@
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\zetex.lib, offset=49982, size=396
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\zetex.lib, offset=55834, size=389
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\jfet.lib, offset=67887, size=272
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\ebipolar.lib, offset=18520, size=371
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\ebipolar.lib, offset=16224, size=388

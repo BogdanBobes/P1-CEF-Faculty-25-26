@@ -1,0 +1,94 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\proiectcef2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\proiectcef2-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\proiectcef2-pspicefiles\schematic1\1.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiectcef2-pspicefiles\schematic1\1.sim"
+        (DisplayName "SCHEMATIC1-1")
+        (Type "PSpice Profile"))))
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BZX84C6V2/ZTX
+      (FullPartName "BZX84C6V2/ZTX.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ZETEX.OLB")
+      (DeviceIndex "0"))
+    (BZX84C6V2/SOT
+      (FullPartName "BZX84C6V2/SOT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (J309
+      (FullPartName "J309.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\JFET.OLB")
+      (DeviceIndex "0"))
+    (BZX84C2V7/ZTX
+      (FullPartName "BZX84C2V7/ZTX.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ZETEX.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "d:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2.dsn")
+      (Path "Design Resources"
+         "d:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "d:\cadence\p1_2025_434c_bobes_bogdan_ow_n15_orcad\schematics\proiectcef2.dsn"
+         "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 274"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1349 52 365")
+        (Scroll "-139 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\PROIECTCEF2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1375 78 391")
+        (Scroll "-139 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\PROIECTCEF2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (MPSSessionName "Bobes Bogdan"))

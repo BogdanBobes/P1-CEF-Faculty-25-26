@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Jan 17 22:42:35 2026
+\t (00:00:02)         Host=DESKTOP-82BADLD User=Bobes Bogdan Pid=9772 CPUs=20
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:03) Design opened: C:/Cadence/P1_2025_434C_Bobes_Bogdan_OW_N15_OrCAD/Schematics/allegro/proiectcef.brd
+\t (00:00:03) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:03) trapsize 2778
+\i (00:00:03) trapsize 2845
+\t (00:00:03) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:03) trapsize 2845
+\i (00:00:03) generaledit 
+\i (00:00:12) pick grid 46.4262 12.1205
+\t (00:00:12) last pick:  46.4000 12.1000
+\i (00:00:16) exit 
+\t (00:00:17)     Journal end - Sat Jan 17 22:42:50 2026

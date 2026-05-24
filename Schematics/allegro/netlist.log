@@ -1,0 +1,18 @@
+{ Using PSTWRITER 17.2.0 d001Dec-04-2025 at 15:14:07 }
+
+#1 WARNING(ORCAP-36006): Part Name "BZX84-C6V2,235_SOT95P230X110-3N_BZX84-C6V2,235" is renamed to "BZX84-C6V2,235_SOT95P230X110-3N".
+#2 WARNING(ORCAP-36006): Part Name "BZX84C2V7LT1G_1_TO236AA_BZX84C2V7LT1G" is renamed to "BZX84C2V7LT1G_1_TO236AA_BZX84C2".
+#3 WARNING(ORCAP-36006): Part Name "BZX84C2V7LT1G_0_TO236AA_BZX84C2V7LT1G" is renamed to "BZX84C2V7LT1G_0_TO236AA_BZX84C2".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\allegro/pstchip.dat
+
+Loading... C:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\allegro/pstchip.dat
+
+Loading... C:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\allegro/pstxprt.dat
+
+Loading... C:\CADENCE\P1_2025_434C_BOBES_BOGDAN_OW_N15_ORCAD\SCHEMATICS\allegro/pstxnet.dat
+packaging the design view...ERROR(SPCODD-385): 
+			Reference Designator: D1. Not all parts specified for sized part.
+        Schematic Instance: @proiectcef.schematic1(sch_1):ins34984@\bzx84-c6v2,235#0\.\bzx84-c6v2,235.normal\(chips) (MODULE: PROIECTCEF; PART: BZX84-C6V2,235).
+

@@ -1,0 +1,36 @@
+OW Bobes Bogdan 434C  Revised: Monday, November 24, 2025
+N15          Revision: 1
+
+
+
+
+
+
+
+Bill Of Materials            May 20,2026      20:02:01	Page1
+
+Item  Quantity	Reference	        Part                  Alveola
+_______________________________________________________________________
+
+1	1	C1	                        47p              29b
+2	2	C2,C3	                        2.2n             31b
+3	2	C4,C5	                        10u               X
+4	1	D1	                   BZX84-C6V2,235        40a
+5	2	D4,D5	                   BZX84C2V7LT1G         38b 
+6	1	J1	                        J309             42b
+7	2	J2,J3	                        CON2              X
+8	13	Q1,Q2,Q8,Q9,Q10,Q11,Q12,	BC817-25         43b
+		Q14,Q15,Q16,Q17,Q18,Q19
+
+9	6	Q3,Q4,Q5,Q6,Q7,Q13	        BC807-25         44a
+10	2	R1,R2	                         470m            1a
+11	3	R3,R9,R10	                 330             7a
+12	2	R4,R5	                         100		 5b
+13	1	R6	                         1.5k            10b
+14	1	R7	                         680             8b
+15	2	R8,R12	                         150             6a
+16	2	R11,R17	                         4.7k            14a
+17	2	R13,R14	                          82             5a
+18	3	R15,R16,R19	                 10k             16b
+19	1	R18	                         22k             17b
+20	1	R20	                         820             9a
